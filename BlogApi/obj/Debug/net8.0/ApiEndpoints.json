@@ -27,6 +27,43 @@
   },
   {
     "ContainingType": "BlogApi.Controllers.BloggerController",
+    "Method": "BloggerPostCount",
+    "RelativePath": "api/Blogger/{Count}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Count",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.BloggerController",
+    "Method": "GetBloggerById",
+    "RelativePath": "api/Blogger/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.BloggerController",
     "Method": "GetBloggersWithPost",
     "RelativePath": "api/Blogger/witPosts",
     "HttpMethod": "GET",

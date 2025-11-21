@@ -16,4 +16,5 @@ namespace BlogApi.Models
         [JsonIgnore]
         public virtual Blogger Bloggers { get; set; } 
     }
+
 }
