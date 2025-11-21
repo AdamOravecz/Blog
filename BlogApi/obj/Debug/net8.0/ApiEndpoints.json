@@ -14,5 +14,41 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.BloggerController",
+    "Method": "GetBloggers",
+    "RelativePath": "api/Blogger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.BloggerController",
+    "Method": "GetBloggersWithPost",
+    "RelativePath": "api/Blogger/witPosts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.PostController",
+    "Method": "AddNewPost",
+    "RelativePath": "api/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addPostDto",
+        "Type": "BlogApi.Models.Dto.AddPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
